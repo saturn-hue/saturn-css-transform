@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+  /* This project is showing how to display images and transform it to customers or cleints. */
+
+  body {
+    margin: 0;
+    color: #fffaf0;  
+    padding:0; 
+      
+
+  }
+
+ 
+  .container{
+    flex: auto;
+    padding: 300px;   
+    height: 1000px;
+    margin:10em;   
+    justify-content: flex-end;
+    position: relative;
+    background-color: #4b0082;
+    border: 5px solid black;
+    font-family: Arial, sans-serif;
+}
+  .container h1 {
+    position: relative;
+    margin-bottom: auto;
+    text-align: center;
+    
+  }
+
+  .container p {
+    position: relative;
+    margin-bottom: auto;
+    text-align: center;
+  }
+
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.container ul li {
+  float: left;
+  margin: 10px;
+ }
+
+.container ul li img {
+  display: block;
+  justify-content: space-evenly;
+  border: 5px solid green;  
+  margin-top: 0px;
+  padding: 0%;
+  position: relative; 
+  width: 200px;
+  height: 150px;
+  opacity: 0.9; 
+  border-radius: 20px; 
+
+}
+
+ul li img:hover {
+  width: 300px;
+  height: 300px;
+  transition: width 2s, height 2s, transform 8s;
+  transform: rotate(360deg);
+  
+} 
+span {
+  color: red;
+  display: right;
+  padding: auto;
+   
+}
